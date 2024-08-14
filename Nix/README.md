@@ -8,7 +8,7 @@ nix build .#ashitakara-honkidasu
 ```
 
 ```bash
-# With non nix-flakes...
+# With legacy Nix...
 nix-build
 # OR
 nix-build default.nix
