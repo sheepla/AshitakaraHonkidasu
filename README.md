@@ -18,7 +18,7 @@
 ### C / C++
 
 GCCとGNU Makeが必要です。使用しているバージョンは `gcc v14.2.1 20240805`, `make v4.4.1` です。
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 ```
 make all
@@ -40,7 +40,7 @@ make run
 
 > [.NET SDK 8.0 Download](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 ```sh
 dotnet run
@@ -48,7 +48,7 @@ dotnet run
 
 ### Go
 
-Go v1.22.6を使用しています。次のコマンドで実行します。
+Go v1.22.6を使用しています。次のコマンドを実行します。
 
 ```sh
 go run main.go
@@ -57,7 +57,7 @@ go run main.go
 ### Java
 
 OpenJDK v17を使用しています。
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 
 ```sh
@@ -67,7 +67,7 @@ java Main
 
 ### Python
 
-Python v3.12.3を使用しています。次のコマンドで実行します。
+Python v3.12.3を使用しています。次のコマンドを実行します。
 
 ```
 python main.py
@@ -81,7 +81,7 @@ Linux, macOSの場合は `run.sh` を、Windowsの場合は `run.cmd` を実行�
 
 ### Ruby
 
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 ```sh
 ruby main.rb
@@ -91,7 +91,7 @@ ruby main.rb
 
 rustup v1.27.1, cargo v1.80.0, ructc v1.80.0を使用しています。
 
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 ```sh
 cargo run
@@ -108,7 +108,7 @@ v8 12.7.224.13
 typescript 5.5.2
 ```
 
-次のコマンドで実行します。
+次のコマンドを実行します。
 
 ```sh
 deno task run
