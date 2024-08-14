@@ -1,0 +1,25 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:dayjs": "npm:dayjs@1.11.12",
+      "npm:dayjs@1.10.7": "npm:dayjs@1.10.7"
+    },
+    "npm": {
+      "dayjs@1.10.7": {
+        "integrity": "sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==",
+        "dependencies": {}
+      },
+      "dayjs@1.11.12": {
+        "integrity": "sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:dayjs@1.10.7"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "run": "deno run main.ts"
+  },
+  "imports": {
+    "dayjs": "npm:dayjs@1.10.7"
+  }
+}
