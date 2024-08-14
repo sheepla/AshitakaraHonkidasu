@@ -1,4 +1,4 @@
 ﻿open System
 
-DateTime.Today.AddDays(1).ToString("MM/ddから本気出す")
-|> Console.WriteLine
+let tomorrow = DateTime.Today.AddDays(1)
+printfn $"{tomorrow:``MM/dd``}から本気出す"
