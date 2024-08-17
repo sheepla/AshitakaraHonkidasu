@@ -46,6 +46,14 @@ make run
 dotnet run
 ```
 
+## Gleam
+
+次のコマンドを実行します。
+
+```sh
+gleam run
+```
+
 ### Go
 
 Go v1.22.6を使用しています。次のコマンドを実行します。
@@ -119,7 +127,7 @@ deno task run
 Dockerfileの存在するディレクトリにcdして、`docker build -t <タグ名>` でコンテナをビルドします。
 タグ名は任意の名前を付けます。(例: `java-ashitakarahonkidasu`)
 
-次に、`docker run --rm -it <タグ名>`を実行するとコンテナが起動し、プログラムが実行されます。
+次に、`docker run --rm <タグ名>`を実行するとコンテナが起動し、プログラムが実行されます。
 
 不要になったイメージは `docker image rm <タグ名>` を実行して削除します。
 
